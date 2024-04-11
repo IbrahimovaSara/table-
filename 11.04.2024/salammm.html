@@ -1,0 +1,56 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Məlumat Forması</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        input[type="text"] {
+            padding: 6px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <table id="infoTable">
+        <thead>
+            <tr>
+                <th>Ad</th>
+                <th>Soyad</th>
+                <th>Yaş</th>
+                <th>Əməliyyatlar</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+    <div>
+        <input type="text" id="txtName" placeholder="Ad">
+        <input type="text" id="txtSurname" placeholder="Soyad">
+        <input type="text" id="txtAge" placeholder="Yaş">
+        <button onclick="addInfo()">kayd et</button>
+    </div>
+
+    <script src="app9.js"></script>
+</body>
+</html>
+
+
